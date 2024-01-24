@@ -1,0 +1,135 @@
+/* for mack book */
+@media  screen  and  (max-width:1440px)  {
+   .main{
+    margin: 30vh 32vw;
+    width: 30vw;
+   }
+   
+   .right-box{
+    margin: -22vh 50vw;
+   }
+   .detail-box{
+    margin: -8vh 52vw;
+    font-size: 20px;
+   }
+   .ans{
+    margin: -1vh 20vw;
+    font-size: 20px;
+   }
+   .btn{
+    font-size: 120%;
+    width: 4vw;
+    margin-left: 23vw;
+   }
+   .input-box{
+    font-size: 120%;
+    width: 20vw;
+    margin-left: 2vw;
+   }
+   .info{
+    margin: 51vh 25vw;
+   }
+  }
+
+  /* for ipads */
+  @media  screen and (max-width:860px) {
+    
+    .main{
+        margin: 30vh 28vw;
+        width: 40vw;
+       }
+       .side-img{
+        width: 40vw;
+       }
+       
+       .right-box{
+        margin: -22vh 48vw;
+        width: 42vw;
+       }
+       .detail-box{
+        margin: -8vh 50vw;
+        font-size: 100%;
+       }
+       .ans{
+        margin: -2vh 27vw;
+        font-size: 100%;
+       }
+       .btn{
+        font-size: 18px;
+        margin: 3vh 31vw;
+        width: 10vw;
+       }
+       .input-box{
+        font-size: 18px;
+        width: 25vw;
+        margin: 3vh 4vw;
+       }
+       ::placeholder{
+        font-size: 1.9vh;
+       }
+       .info{
+        margin: 51vh 18vw;
+        font-size: 100%;
+       }
+      
+  }
+
+  /* for iphone12 */
+  @media    (max-width:400px) {
+   body{
+    
+    overflow: hidden;
+    background-image: url("../Compoents/nature2.png");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   
+    .main{
+        box-shadow: none;
+        height: 50vh;
+        margin: 30vh 13vh;
+        width: 19vw;
+        
+       }
+       .side-img{
+        height: 40vh;
+        width: 30vw;
+        margin: 2vh 0vh;
+        background-image: none;
+       }
+       
+       .right-box{
+        
+        margin: -18vh 5vw;
+        width: 83vw;
+       }
+       .detail-box{
+        margin: -8vh 10vw;
+        font-size: 15px;
+       }
+       .ans{
+        margin: -1vh 53vw;
+        font-size: 15px;
+       }
+       .btn{
+        font-size: 15px;
+        margin: 3vh 63vw;
+        width: 15vw;
+       }
+       .input-box{
+        font-size: 15px;
+        width: 49vw;
+        margin: 3vh 11vw;
+       }
+       ::placeholder{
+        font-size: 1.5vh;
+       }
+       .info{
+        margin: -25vh 37vw;
+        font-size: 20px;
+        width: 40vw;
+        
+       }
+      
+  }
