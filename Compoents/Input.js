@@ -23,7 +23,7 @@ const Input = () => {
   
   const [temp_c,Settempc]=useState([]);
   async function weather(){
-    const result= await axios.get(`HTTPS://api.weatherapi.com/v1/current.json?key=1c13ba108bbc4ad2a64141311231311 &q=${city}&aqi=no`);
+    const result= await axios.get(`HTTPS://api.weatherapi.com/v1/current.json?key=1c13ba108bbc4ad2a64141311231311 somil&q=${city}&aqi=no`);
     
   
     const tempe=result.data.current.temp_c;
