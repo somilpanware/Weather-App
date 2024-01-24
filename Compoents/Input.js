@@ -6,7 +6,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
-import Palce from './Place';
+import Place from './Place';
 
 
 
@@ -43,7 +43,7 @@ const Input = () => {
   
     return (
       <>
-      { <Palce temp={temp_c} city={display}/>}
+      { <Place temp={temp_c} city={display}/>}
       <div className='main-box'>
       
       
@@ -66,7 +66,7 @@ const Input = () => {
         
         
        <button onClick={()=>{
-        {<Palce check ={true}/>}
+        {<Place check ={true}/>}
         Setdisplay(city);
         // detail();
          weather();
