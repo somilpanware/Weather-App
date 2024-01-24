@@ -52,25 +52,25 @@
         font-size: 90%;
        }
        .ans{
-        margin: -2vh 27vw;
+        margin: -2vh 22vw;
         font-size: 100%;
        }
        .btn{
-        font-size: 18px;
-        margin: 3vh 31vw;
-        width: 10vw;
+        font-size: 10px;
+        margin: 3vh 28vw;
+        width: 7vw;
        }
        .input-box{
         font-size: 18px;
         width: 25vw;
-        margin: 3vh 4vw;
+        margin: 3vh 1vw;
        }
        ::placeholder{
         font-size: 1.9vh;
        }
        .info{
         margin: 51vh 18vw;
-        font-size: 100%;
+        font-size: 75%;
        }
       
   }
